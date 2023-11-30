@@ -1,14 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="../static/css/header.css">
-    <link rel="stylesheet" href="../static/css/style.css">
-</head>
-<body>
+{% extends 'header.html' %}
+
+{% block head %}
+    {% super() %}
+    {% block title %}
+        トップページ
+    {% endblock %}
+    
+{% endblock %}
+
+{% block nav %}
+{% super() %}
+{% endblock %}
         <header class="header">
             <h1>DISITAL MARCHE</h1>
             <div class="search-box">
