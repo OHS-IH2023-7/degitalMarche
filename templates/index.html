@@ -1,7 +1,8 @@
 {% extends 'header.html' %}
 
 {% block head %}
-    {% super() %}
+    {{ super() }}
+    
     {% block title %}
         トップページ
     {% endblock %}
@@ -9,9 +10,11 @@
 {% endblock %}
 
 {% block nav %}
-{% super() %}
+    {{ super() }}
+
 {% endblock %}
-            <h1>DISITAL MARCHE</h1>
+        <header>
+            <h1>DIGITAL MARCHE</h1>
             <div class="search-box">
                 <input type="text" placeholder="探し物は何ですか？">
                 <button type="submit"><i class="fa fa-search"></i></button>
