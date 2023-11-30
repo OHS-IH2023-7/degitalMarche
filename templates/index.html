@@ -2,8 +2,8 @@
 <!--  -->
 {% block head %}
     {{ super() }}
-    {% block cssfilename %}
-        style.css
+    {% block externalcss %}
+        <link rel="stylesheet" href="">
     {% endblock %}
     
     {% block title %}
@@ -26,7 +26,7 @@
             <h1>DIGITAL MARCHE</h1>
             <div class="search-box">
                 <input type="text" placeholder="探し物は何ですか？">
-                <button type="submit"><i class="fa fa-search"></i></button>
+                <button type="submit"><i class="fa fa-search" >aaaa</i></button>
             </div>
         </header>
 
