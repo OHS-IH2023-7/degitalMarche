@@ -1,18 +1,27 @@
-{% extends 'header.html' %}
-
+{% extends 'base.html' %}
+<!--  -->
 {% block head %}
     {{ super() }}
+    {% block cssfilename %}
+        style.css
+    {% endblock %}
     
     {% block title %}
         トップページ
     {% endblock %}
-    
 {% endblock %}
+<!--  -->
 
+
+<!--  -->
 {% block nav %}
     {{ super() }}
-
 {% endblock %}
+
+
+
+{% block main %}
+
         <header>
             <h1>DIGITAL MARCHE</h1>
             <div class="search-box">
@@ -20,5 +29,10 @@
                 <button type="submit"><i class="fa fa-search"></i></button>
             </div>
         </header>
-</body>
-</html>
+
+
+{% endblock %}
+
+{% block footer %}
+    {{ super() }}
+{% endblock %}

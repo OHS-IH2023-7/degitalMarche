@@ -1,3 +1,39 @@
-{% block main %}
-    <h2>ベースファイル</h2>
+<!-- ページを追加する場合、基本的に全てのブロックを記述してください -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- headタグ -->
+{% block head %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/{% block cssfilename %}style.css{% endblock %}">
+    <title>{% block title %}title{% endblock %}</title>
+</head>
 {% endblock %}
+<body>
+<!-- ナビゲーションバー(検索バー) -->
+{% block nav %}
+<div id="nav-bar">
+    <p>ナビゲーションバー</p>
+</div>
+<hr>
+{% endblock %}
+
+
+<!-- メインコンテンツ -->
+{% block main %}
+
+
+{% endblock %}
+
+
+<!-- フッター以下 -->
+{% block footer %}
+    <hr>
+    <footer>
+        DIGITAL MARCHE(C)
+    </footer>
+{% endblock %}
+
+</body>
+</html>
