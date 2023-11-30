@@ -1,49 +1,33 @@
 <!-- ページを追加する場合、基本的に全てのブロックを記述してください -->
-<!DOCTYPE html>
-<html lang="en">
+{% extends 'base.html' %}
 <!-- headタグ -->
 {% block head %}
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    {{ super() }}
+
     <!-- 追加のcssファイルを記述する場合はここから -->
     {% block externalcss %}
-
+        <link rel="stylesheet" href="">
     {% endblock %}
     
-    <title>
-        <!-- ページ名(基本的に上書き) -->
-        {% block title %}title{% endblock %}
-    </title>
-    
-</head>
+    <!-- ページ名(基本的に上書き) -->
+    {% block title %}
+        タイトル名
+    {% endblock %}
 {% endblock %}
 
-<body>
 <!-- ナビゲーションバー(検索バー) -->
 {% block nav %}
-<div id="nav-bar">
-    <p>ナビゲーションバー</p>
-</div>
-<hr>
+    {{ super() }}
 {% endblock %}
 
 
 <!-- メインコンテンツ -->
 {% block main %}
 
-
 {% endblock %}
 
 
 <!-- フッター以下 -->
 {% block footer %}
-    <hr>
-    <footer>
-        DIGITAL MARCHE(C)
-    </footer>
+    {{ super() }}
 {% endblock %}
-
-</body>
-</html>

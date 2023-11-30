@@ -1,5 +1,6 @@
+<!-- ページを追加する場合、基本的に全てのブロックを記述してください -->
 {% extends 'base.html' %}
-<!--  -->
+<!-- headタグ -->
 {% block head %}
     {{ super() }}
     {% block externalcss %}
@@ -10,15 +11,15 @@
         トップページ
     {% endblock %}
 {% endblock %}
-<!--  -->
 
 
-<!--  -->
+<!-- ナビゲーションバー(検索バー) -->
 {% block nav %}
     {{ super() }}
 {% endblock %}
 
 
+<!-- メインコンテンツ -->
 
 {% block main %}
 
@@ -29,7 +30,6 @@
                 <button type="submit"><i class="fa fa-search" >aaaa</i></button>
             </div>
         </header>
-
 
 {% endblock %}
 
