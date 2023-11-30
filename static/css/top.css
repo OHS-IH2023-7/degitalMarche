@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#category ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#category ul li {
+  background-color: blue;
+  border-radius: 50%;
+  list-style: none;
+}
+
+#new ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 25%;
+}
+
+#new ul li {
+  list-style: none;
+  background-color: red;
+}
+/*# sourceMappingURL=top.css.map */
