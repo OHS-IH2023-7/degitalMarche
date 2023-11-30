@@ -7,7 +7,7 @@ header{
     padding: 15px 10px;
 
     .search-box {
-        width: 20%;
+        width: fit-content;
         position: relative;
         margin: 7px 20px;
         display: flex;
@@ -22,10 +22,11 @@ header{
     }
     
     .search-box button {
-        padding: 6px 15px;
         font-size: 18px;
         position: absolute;
-        right: 10px;
+        top: 50%;
+        right: 1em;
+        transform: translateY(-50%);
         border: none;
         background: none;
         cursor: pointer;
