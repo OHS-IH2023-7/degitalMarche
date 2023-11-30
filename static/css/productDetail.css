@@ -1,0 +1,14 @@
+.product-wrapper {
+  width: 80%;
+  margin: 5em auto;
+  display: flex;
+  justify-content: space-between;
+}
+.product-wrapper .product-image {
+  width: 45%;
+}
+.product-wrapper .product-image .image-box {
+  width: 100%;
+  aspect-ratio: 1/1;
+  background: aqua;
+}/*# sourceMappingURL=productDetail.css.map */
