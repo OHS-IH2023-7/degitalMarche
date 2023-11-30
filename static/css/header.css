@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  padding: 15px 10px;
+}
+header .search-box {
+  width: 20%;
+  position: relative;
+  margin: 7px 20px;
+  display: flex;
+}
+header input[type=text] {
+  padding: 6px;
+  font-size: 18px;
+  background-color: #f4f8fa;
+  border-radius: 15px;
+  border: none;
+}
+header .search-box button {
+  padding: 6px 15px;
+  font-size: 18px;
+  position: absolute;
+  right: 10px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}/*# sourceMappingURL=header.css.map */
