@@ -12,12 +12,10 @@
     {% endblock %}
 {% endblock %}
 
-
 <!-- ナビゲーションバー(検索バー) -->
 {% block nav %}
     {{ super() }}
 {% endblock %}
-
 
 <!-- メインコンテンツ -->
 
@@ -31,6 +29,14 @@
             </div>
         </header>
 
+        <div class="product-wrapper">
+            <section class="product-image">
+                <div class="image-box">
+                    <img src="" alt="">
+                    <a href="/product_detail">商品詳細へ</a>
+                </div>
+            </section>
+        </div>
 {% endblock %}
 
 {% block footer %}
