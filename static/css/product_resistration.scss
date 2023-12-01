@@ -1,0 +1,27 @@
+#picture{
+    overflow-y: scroll;
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+            margin: 20px 100px;
+            padding: 100px;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+        }
+    }
+}
+
+#input{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    .item{
+        margin: 30px;
+        #explanation{
+            width: 50%;
+            height: 200px;
+        }
+    }
+}
