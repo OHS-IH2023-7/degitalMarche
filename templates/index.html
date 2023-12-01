@@ -1,24 +1,6 @@
 <!-- ページを追加する場合、基本的に全てのブロックを記述してください -->
 {% extends 'base.html' %}
-<!-- headタグ -->
-{% block head %}
-    {{ super() }}
-    {% block externalcss %}
-        <link rel="stylesheet" href="">
-    {% endblock %}
-    
-    {% block title %}
-        トップページ
-    {% endblock %}
-{% endblock %}
-
-<!-- ナビゲーションバー(検索バー) -->
-{% block nav %}
-    {{ super() }}
-{% endblock %}
-
 <!-- メインコンテンツ -->
-
 {% block main %}
 
 
@@ -30,8 +12,4 @@
                 </div>
             </section>
         </div>
-{% endblock %}
-
-{% block footer %}
-    {{ super() }}
 {% endblock %}
