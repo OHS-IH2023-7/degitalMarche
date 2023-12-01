@@ -11,6 +11,12 @@ def helloworld():
 def product_detail():
 
     return render_template('product_detail.html')
+@app.route('/top')
+def helloworl():
+    # return 'Hello World.'
+
+    return render_template('top.html')
+
 
 
 if __name__ == '__main__':
