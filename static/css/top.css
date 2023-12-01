@@ -3,28 +3,58 @@
   padding: 0;
 }
 
+#head {
+  width: 80%;
+  margin: 40px auto;
+}
+
+#head h1 {
+  background-color: teal;
+  height: 200px;
+}
+
+#category {
+  width: 80%;
+  margin: 0 auto;
+}
+
 #category ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #category ul li {
   background-color: blue;
   border-radius: 50%;
   list-style: none;
+  margin: 70px;
+  padding: 40px;
+  width: 100px;
+  height: 100px;
+}
+
+#new {
+  width: 80%;
+  margin: 10px auto;
 }
 
 #new ul {
+  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 25%;
 }
 
 #new ul li {
+  height: 250px;
+  width: 22%;
+  margin: 16px;
   list-style: none;
   background-color: red;
 }

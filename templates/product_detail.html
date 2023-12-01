@@ -1,37 +1,32 @@
+
+
 <!-- ページを追加する場合、基本的に全てのブロックを記述してください -->
 {% extends 'base.html' %}
 <!-- headタグ -->
 {% block head %}
     {{ super() }}
+
+    <!-- 追加のcssファイルを記述する場合はここから -->
     {% block externalcss %}
         <link rel="stylesheet" href="">
     {% endblock %}
     
     {% block title %}
-        トップページ
+        商品詳細ページ
     {% endblock %}
 {% endblock %}
 
 <!-- ナビゲーションバー(検索バー) -->
-{% block nav %}
-    {{ super() }}
-{% endblock %}
+
 
 <!-- メインコンテンツ -->
-
 {% block main %}
+    <div class="box" style="height: 100px; width: 100px;background-color: antiquewhite;">あ</div>
 
-
-        <div class="product-wrapper">
-            <section class="product-image">
-                <div class="image-box">
-                    <img src="" alt="">
-                    <a href="/product_detail">商品詳細へ</a>
-                </div>
-            </section>
-        </div>
 {% endblock %}
 
+
+<!-- フッター以下 -->
 {% block footer %}
     {{ super() }}
 {% endblock %}
