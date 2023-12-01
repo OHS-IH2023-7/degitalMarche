@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/product_resistration.css">
+</head>
+<body>
+    <div id="picture">
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div id="input">
+        <form action="" id="form">
+            <div class="item">
+                <label class="label" for="name" name="name">商品名</label>
+                <input type="text" id="name">
+            </div>
+            <div class="item">
+                <label class="label" for="category" name="caegory">カテゴリー</label>
+                <select name="category" id="category" size="6" form="form">
+                    <option value="1">a</option>
+                    <option value="2">b</option>
+                    <option value="3">c</option>
+                    <option value="4">d</option>
+                    <option value="5">e</option>
+                    <option value="6">f</option>
+                </select>
+            </div>
+            <div class="item">
+                <label class="label" for="explanation" name="explanation">商品の説明</label><br>
+                <input type="text" id="explanation">
+            </div>
+            <div class="item">
+                <label class="label" for="price" name="price">販売価格</label>
+                <input type="text" id="price" value="￥">
+            </div>
+            <input type="submit" value="出品">
+        </form>
+    </div>
+</body>
+</html>

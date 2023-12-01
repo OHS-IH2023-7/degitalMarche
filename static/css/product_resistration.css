@@ -1,0 +1,34 @@
+#picture {
+  overflow-y: scroll;
+}
+
+#picture ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#picture ul li {
+  list-style: none;
+  margin: 20px 100px;
+  padding: 100px;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+#input {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#input .item {
+  margin: 30px;
+}
+
+#input .item #explanation {
+  width: 50%;
+  height: 200px;
+}
+/*# sourceMappingURL=product_resistration.css.map */
