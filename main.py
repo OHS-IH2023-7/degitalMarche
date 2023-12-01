@@ -7,10 +7,10 @@ def helloworld():
 
     return render_template('index.html')
 
-@app.route('/product_detail')
+@app.route('/product-detail')
 def product_detail():
 
-    return render_template('product_detail.html')
+    return render_template('product-detail.html')
 @app.route('/top')
 def helloworl():
     # return 'Hello World.'
