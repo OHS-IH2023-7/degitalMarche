@@ -7,6 +7,10 @@ def helloworld():
 
     return render_template('index.html')
 
+@app.route('/product_detail')
+def product_detail():
+
+    return render_template('product_detail.html')
 
 
 if __name__ == '__main__':
