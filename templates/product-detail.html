@@ -2,6 +2,76 @@
 {% block main %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/productDetail.css') }}">
 <div class="product-wrapper">
-    <input type="checkbox" name="" id="">
+    <section class="product-image">
+        <div class="image-box">
+            <img src="" alt="">
+        </div>
+    </section>
+    <section class="product-detail">
+        <h2>MacBook Pro 14インチ MRX43J/A Late 2023 スペースブラック )/18GB/1TB SSD】</h2>
+        <div class="price">
+            <p>369,800円</p>
+        </div>
+        <div class="buy">
+            <p>購入する</p>
+        </div>
+        <div class="description">
+            <section class="state">
+                <h3>商品の状態</h3>
+                <p>未使用品</p>
+            </section>
+            <section class="description-detail">
+                <h3>商品説明</h3>
+                <p>使用されていない開封済み商品となりますが、動作確認のため通電を行っております。<br>箱/96W USB-C電源アダプタ/USB-C - MagSafe3ケーブル(2m)/マニュアル</p>
+            </section>
+        </div>
+        <div class="comment">
+            <h3>コメント（３）</h3>
+            <section class="comment-detail">
+                <div class="user-container">
+                    <div class="user-icon">
+                        <div class="icon-box">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <div class="user-comment">
+                        <div class="comment-box">
+                            <p>サンプルテキスト</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-container">
+                    <div class="user-icon">
+                        <div class="icon-box">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <div class="user-comment">
+                        <div class="comment-box">
+                            <p>サンプルテキスト</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="user-container">
+                    <div class="user-icon">
+                        <div class="icon-box">
+                            <img src="" alt="">
+                        </div>
+                    </div>
+                    <div class="user-comment">
+                        <div class="comment-box">
+                            <p>サンプルテキスト</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="send-comment">
+                <form action="">
+                    <input type="text" name="" id=""placeholder="コメントを送信する">
+                    <input type="submit" value="送信する">
+                </form>
+            </section>
+        </div>
+    </section>
 </div>
 {% endblock %}
