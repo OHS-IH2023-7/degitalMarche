@@ -1,38 +1,15 @@
 <!-- ページを追加する場合、基本的に全てのブロックを記述してください -->
 {% extends 'base.html' %}
-<!-- headタグ -->
-{% block head %}
-    {{ super() }}
-    {% block externalcss %}
-        <link rel="stylesheet" href="">
-    {% endblock %}
-    
-    {% block title %}
-        トップページ
-    {% endblock %}
-{% endblock %}
-
-
-<!-- ナビゲーションバー(検索バー) -->
-{% block nav %}
-    {{ super() }}
-{% endblock %}
-
-
 <!-- メインコンテンツ -->
-
 {% block main %}
 
-        <header>
-            <h1>DIGITAL MARCHE</h1>
-            <div class="search-box">
-                <input type="text" placeholder="探し物は何ですか？">
-                <button type="submit"><i class="fa fa-search" >aaaa</i></button>
-            </div>
-        </header>
 
-{% endblock %}
-
-{% block footer %}
-    {{ super() }}
+        <div class="product-wrapper">
+            <section class="product-image">
+                <div class="image-box">
+                    <img src="" alt="">
+                    <a href="/product_detail">商品詳細へ</a>
+                </div>
+            </section>
+        </div>
 {% endblock %}

@@ -1,1 +1,9 @@
-{"version":3,"sources":["productDetail.scss","productDetail.css"],"names":[],"mappings":"AAAA;EACI,UAAA;EACA,gBAAA;EACA,aAAA;EACA,8BAAA;ACCJ;ADAI;EACI,UAAA;ACER;ADDQ;EACI,WAAA;EACA,iBAAA;EACA,gBAAA;ACGZ","file":"productDetail.css"}
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAA;EACZ,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,QAAQ;EAChB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CASjC;;AAbD,AAKI,gBALY,CAKZ,cAAc,CAAA;EACV,KAAK,EAAE,GAAG;CAMb;;AAZL,AAOQ,gBAPQ,CAKZ,cAAc,CAEV,UAAU,CAAA;EACN,KAAK,EAAE,IAAI;EACX,YAAY,EAAE,KAAK;EACnB,UAAU,EAAE,IAAI;CACnB",
+    "sources": [
+        "productDetail.scss"
+    ],
+    "names": [],
+    "file": "productDetail.css"
+}

@@ -7,6 +7,16 @@ def helloworld():
 
     return render_template('index.html')
 
+@app.route('/product-detail')
+def product_detail():
+
+    return render_template('product-detail.html')
+@app.route('/top')
+def helloworl():
+    # return 'Hello World.'
+
+    return render_template('top.html')
+
 
 
 if __name__ == '__main__':
