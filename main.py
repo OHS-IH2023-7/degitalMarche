@@ -16,6 +16,11 @@ def helloworl():
     # return 'Hello World.'
 
     return render_template('top.html')
+@app.route('/product_resistration')
+def product_resistration():
+    # return 'Hello World.'
+
+    return render_template('product_resistration.html')
 
 
 
