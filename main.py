@@ -12,8 +12,11 @@ def product_detail():
 
     return render_template('product_detail.html')
 @app.route('/top')
-def helloworl():
+def top():
     return render_template('top.html')
+@app.route('/top')
+def top():
+    return render_template('rogin_customer.html')
 
 @app.route('/product_resistration')
 def product_resistration():
