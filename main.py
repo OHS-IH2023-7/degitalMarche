@@ -14,8 +14,8 @@ def product_detail():
 @app.route('/top')
 def top():
     return render_template('top.html')
-@app.route('/top')
-def top():
+@app.route('/rogin_customer')
+def rogin():
     return render_template('rogin_customer.html')
 
 @app.route('/product_resistration')
