@@ -3,7 +3,11 @@
 <link rel="stylesheet" href="{{ url_for('static', filename='css/product_resistration.css') }}">
     <div id="picture">
         <ul>
-            <li><input type = 'file' accept= 'image/*' /></li>
+            <li>
+                <label class="upload" for="" tabindex="0">
+                    <input type="file" name="file" id="file" accept="image/*" multiple>画像を選択
+                </label>
+            </li>
             <li></li>
             <li></li>
             <li></li>
