@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 #picture {
   overflow-y: scroll;
 }
@@ -10,26 +15,46 @@
 
 #picture ul li {
   list-style: none;
-  margin: 20px 100px;
+  margin: 30px 60px;
   padding: 100px;
-  height: 100px;
-  width: 100px;
   background-color: red;
 }
 
 #input {
   width: 80%;
-  margin: 0 auto;
+  margin: 20px auto;
+  padding: 50px;
   text-align: center;
+  background-color: #c6ffec;
 }
 
 #input .item {
-  margin: 30px;
+  margin: 20px;
+  padding: 10px;
+}
+
+#input .item .label {
+  padding-right: 10px;
 }
 
 #input .item #explanation {
   width: 50%;
   height: 200px;
+  font-size: 20px;
+}
+
+#input .item #category {
+  width: 280px;
+}
+
+#input .item input {
+  width: 300px;
+  height: 30px;
+}
+
+#input #submit {
+  margin-top: 20px;
+  padding: 10px 30px;
   font-size: 20px;
 }
 /*# sourceMappingURL=product_resistration.css.map */
