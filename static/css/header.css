@@ -4,24 +4,35 @@
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  width: 100%;
   padding: 15px 10px;
+  background-color: lightgrey;
 }
+
 header .header-title {
   font-size: clamp(16px, 4vw, 32px);
   font-weight: 900;
 }
+
 header .header-title a {
   text-decoration: none;
   color: black;
 }
+
 header .search-box {
+  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   position: relative;
   margin: 7px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 header input[type=text] {
   padding: 6px;
   font-size: 18px;
@@ -29,13 +40,16 @@ header input[type=text] {
   border-radius: 15px;
   border: none;
 }
+
 header .search-box button {
   font-size: 18px;
   position: absolute;
   top: 50%;
   right: 1em;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
   border: none;
   background: none;
   cursor: pointer;
-}/*# sourceMappingURL=header.css.map */
+}
+/*# sourceMappingURL=header.css.map */

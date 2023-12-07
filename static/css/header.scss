@@ -4,10 +4,15 @@
 }
 header{
     display: flex;
+    width: 100%;
     padding: 15px 10px;
+    background-color: lightgrey;
+    // position: fixed;
+    // margin-top: 0;
     .header-title{
         font-size: clamp(16px , 4vw, 32px);
         font-weight: 900;
+        // margin-top: 0;
         a{
             text-decoration: none;
             color: black;
