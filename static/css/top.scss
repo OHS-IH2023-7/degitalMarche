@@ -47,7 +47,7 @@
                 margin: 10px;
                 // padding: 10px;
                 list-style: none;
-                background-color: red;
+                background-color: rgb(194, 194, 194);
                 &:nth-child(3n+1){
                     margin-left: 0;
                 }
@@ -65,13 +65,15 @@
         #more{
 
             // width: 80%;
-            margin-bottom: 50px;
+            margin-bottom: 150px;
             
             a{
                 text-decoration: none;
                 // text-align: center;
                 // margin: 0 auto;
-                position: relative;
+                // position: relative;
+                float: right;
+                padding: 10px;
 
                 font-size: large;
             }

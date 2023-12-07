@@ -40,6 +40,12 @@
   height: 40px;
 }
 
+.product-info-wrapper .left #tbl tr td input[type=radio] {
+  accent-color: blue;
+  inline-size: 1rem;
+  block-size: 1rem;
+}
+
 .product-info-wrapper .right {
   margin-top: 7em;
   padding: 3em;

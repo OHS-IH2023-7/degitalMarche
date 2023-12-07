@@ -67,7 +67,7 @@
   aspect-ratio: 1 / 1;
   margin: 10px;
   list-style: none;
-  background-color: red;
+  background-color: #c2c2c2;
 }
 
 #new ul li:nth-child(3n+1) {
@@ -86,12 +86,13 @@
 }
 
 #new #more {
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 #new #more a {
   text-decoration: none;
-  position: relative;
+  float: right;
+  padding: 10px;
   font-size: large;
 }
 
