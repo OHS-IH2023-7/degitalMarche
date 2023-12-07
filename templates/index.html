@@ -2,8 +2,9 @@
 {% extends 'base.html' %}
 <!-- メインコンテンツ -->
 {% block main %}
-
-
+{% for p in result %}
+<p>{{ p.id }}</p>
+{% endfor %}
         <div class="product-wrapper">
             <section class="product-image">
                 <div class="image-box">
