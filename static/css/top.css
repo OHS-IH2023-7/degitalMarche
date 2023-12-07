@@ -7,7 +7,6 @@
   width: 80%;
   margin: 40px auto;
 }
-
 #head h1 {
   background-color: teal;
   height: 200px;
@@ -17,59 +16,60 @@
   width: 80%;
   margin: 0 auto;
 }
-
 #category ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
+  margin: 5em 0;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
+  justify-content: space-between;
 }
-
 #category ul li {
   background-color: blue;
   border-radius: 50%;
   list-style: none;
-  margin: 70px;
-  padding: 40px;
-  width: 100px;
-  height: 100px;
+  flex: 1;
+  margin: 0 20px;
+  max-width: 200px;
+  aspect-ratio: 1/1;
 }
 
 #new {
   width: 80%;
   margin: 10px auto;
 }
-
 #new ul {
   max-width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-
 #new ul li {
-  height: 250px;
-  width: 22%;
-  margin: 16px;
+  width: 30%;
+  margin-left: 5%;
+  aspect-ratio: 1/1;
+  margin: 10px;
   list-style: none;
   background-color: red;
 }
-
+#new ul li:nth-child(3n+1) {
+  margin-left: 0;
+}
+#new ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#new ul li a img {
+  width: 100%;
+  height: 100%;
+}
 #new #more {
   margin-bottom: 50px;
 }
-
 #new #more a {
   text-decoration: none;
   position: relative;
   font-size: large;
 }
-
 #new #more a:hover {
   text-decoration: underline;
-}
-/*# sourceMappingURL=top.css.map */
+}/*# sourceMappingURL=top.css.map */

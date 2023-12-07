@@ -1,19 +1,20 @@
 {% extends 'base.html' %}
 {% block main %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/productDetail.css') }}">
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
 <div class="product-wrapper">
     <section class="product-image">
         <div class="image-box">
-            <img src="" alt="">
+            <img src="{{ url_for('static', filename='image/283689_1_L.webp') }}" alt="">
         </div>
     </section>
     <section class="product-detail">
-        <h2>MacBook Pro 14インチ MRX43J/A Late 2023 スペースブラック )/18GB/1TB SSD】</h2>
+        <h2>MacBook Pro 14インチ MRX43J/A Late 2023 スペースブラック )/8GB/512GB SSD】</h2>
         <div class="price">
             <p>369,800円</p>
         </div>
         <div class="buy">
-            <p>購入する</p>
+            <a href="/input_info"><p>購入する</p></a>
         </div>
         <div class="description">
             <section class="state">
@@ -26,7 +27,7 @@
             </section>
         </div>
         <div class="comment">
-            <h3>コメント（３）</h3>
+            <h3>レビュー（1）</h3>
             <section class="comment-detail">
                 <div class="user-container">
                     <div class="user-icon">
@@ -36,31 +37,10 @@
                     </div>
                     <div class="user-comment">
                         <div class="comment-box">
-                            <p>サンプルテキスト</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="user-container">
-                    <div class="user-icon">
-                        <div class="icon-box">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="user-comment">
-                        <div class="comment-box">
-                            <p>サンプルテキスト</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="user-container">
-                    <div class="user-icon">
-                        <div class="icon-box">
-                            <img src="" alt="">
-                        </div>
-                    </div>
-                    <div class="user-comment">
-                        <div class="comment-box">
-                            <p>サンプルテキスト</p>
+                            <p>こちらのと同じものがApple Storeで248,800円で販売されております。転売商品ですのでお気を付けください。</p>
+                            <div class="good-count">
+                                <p><span id="good-button">GOOD</span>:<span id="good-num">10</span></p>
+                            </div>
                         </div>
                     </div>
                 </div>

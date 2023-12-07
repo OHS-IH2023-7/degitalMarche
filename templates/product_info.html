@@ -1,11 +1,11 @@
 {% extends 'base.html' %}        
 <!-- メインコンテンツ -->
 {% block main %}
-<!-- <link rel="stylesheet" href="../static/css/complete.css"> -->
-<title>購入完了</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/product_info.css') }}">
+<div class="product-info-wrapper">   
     <h2>購入情報入力</h2>
 
-    <div class="reft">
+    <div class="left">
         <table border="1">
             <tr>
                 <td>お届け先</td>
@@ -13,23 +13,23 @@
                     <table>
                         <tr>
                             <td>お名前</td>
-                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id="" value="HAL太郎"></td>
                         </tr>
                         <tr>
                             <td>郵便番号</td>
-                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id=""value="530-0001"></td>
                         </tr>
                         <tr>
                             <td>都道府県</td>
-                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id="" value="大阪府"></td>
                         </tr>
                         <tr>
                             <td>住所</td>
-                            <td><input type="text" name="" id=""></td>
+                            <td><textarea name="" id="">大阪府大阪市北区梅田３丁目３−１</textarea></td>
                         </tr>
                         <tr>
                             <td>電話番号</td>
-                            <td><input type="text" name="" id=""></td>
+                            <td><input type="text" name="" id="" value="06-6347-0001"></td>
                         </tr>
                     </table>
                 </td>
@@ -39,7 +39,7 @@
                 <td>
                     <table>
                         <tr>
-                            <td><input type="radio" name="" id="">対面で受け取り</td>
+                            <td><input type="radio" name="" id="" checked>対面で受け取り</td>
                         </tr>
                         <tr>
                             <tr>
@@ -70,7 +70,7 @@
                             <td><input type="radio" name="" id="">PayPay</td>
                         </tr>
                         <tr>
-                            <td><input type="radio" name="" id="">コンビニ支払い</td>
+                            <td><input type="radio" name="" id="" checked>コンビニ支払い</td>
                         </tr>
                         <tr>
                             <td><input type="radio" name="" id="">代金引換</td>
@@ -92,20 +92,20 @@
          -->
 
         <p>金額</p>
-        <p class="price">testtest</p>
-        <p>送料</p>
-        <p class="price">testtest</p>
+        <p class="price">369,800円</p>
+        <p>送料・手数料</p>
+        <p class="price">300円</p>
         <hr width="30%">
         <p>合計</p>
-        <p class="proce">testtest</p>
+        <p class="proce">370,100円</p>
+        <form action="" method="get" id="">
+            <a href="/buy_check">確認画面へ</a>
+        </form>
     </div>
 
-    <br>
 
-    <form action="" method="get" id="">
-        <a href="">確認画面へ</a>
-    </form>
-    <br>
+</div>
+
 
 
 {% endblock %}

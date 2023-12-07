@@ -1,0 +1,43 @@
+{% extends 'base.html' %}        
+<!-- メインコンテンツ -->
+{% block main %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/buy_check.css') }}">
+<div class="check-wrapper">
+    <h2>入力した情報を確認</h2>
+    <ul>
+        <li>
+            <h3>お名前</h3>
+            <p>HAL太郎</p>
+        </li>
+        <li>
+            <h3>郵便番号</h3>
+            <p>530-0001</p>
+        </li>
+        <li>
+            <h3>住所</h3>
+            <p>大阪府大阪市北区梅田３丁目３−１</p>
+        </li>
+        <li>
+            <h3>電話番号</h3>
+            <p>06-6347-0001</p>
+        </li>
+        <li>
+            <h3>受け取り場所</h3>
+            <p>対面で受け取り</p>
+        </li>
+        <li>
+            <h3>支払方法</h3>
+            <p>コンビニ支払い</p>
+        </li>
+        <li>
+            <h3>合計金額</h3>
+            <p>370,100円</p>
+        </li>
+    </ul>
+    <form action="">
+        <a href="/complete">
+        </a>
+        <input type="submit" value="送信する">
+    </form>
+</div>
+{% endblock %}

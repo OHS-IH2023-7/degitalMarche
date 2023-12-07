@@ -6,13 +6,9 @@
 #picture {
   overflow-y: scroll;
 }
-
 #picture ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 #picture ul li {
   list-style: none;
   margin: 30px 60px;
@@ -25,35 +21,27 @@
   margin: 20px auto;
   padding: 50px;
   text-align: center;
-  background-color: #c6ffec;
+  background-color: rgb(198, 255, 236);
 }
-
 #input .item {
   margin: 20px;
   padding: 10px;
 }
-
 #input .item .label {
   padding-right: 10px;
 }
-
 #input .item #explanation {
   width: 50%;
   height: 200px;
   font-size: 20px;
-<<<<<<< HEAD
-=======
 }
-
 #input .item #category {
   width: 280px;
 }
-
 #input .item input {
   width: 300px;
   height: 30px;
 }
-
 #input #submit {
   margin-top: 20px;
   padding: 10px 30px;

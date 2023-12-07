@@ -1,0 +1,18 @@
+.product-info-wrapper{
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .right{
+        padding: 5em;
+        background: whitesmoke;
+    }
+    h2{
+        width: 100%;
+        text-align: left;
+    }
+    form{
+        width: 100%;
+    }
+}

@@ -5,7 +5,15 @@
 header{
     display: flex;
     padding: 15px 10px;
-
+    .header-title{
+        font-size: clamp(16px , 4vw, 32px);
+        font-weight: 900;
+        a{
+            text-decoration: none;
+            color: black;
+     
+        }
+    }
     .search-box {
         width: fit-content;
         position: relative;
