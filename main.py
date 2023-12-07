@@ -28,15 +28,22 @@ def helloworld():
     result = sqlConnect(sql)
     return render_template('index.html',result=result)
 
-@app.route('/product-detail')
+@app.route('/product_detail')
 def product_detail():
 
-    return render_template('product-detail.html')
+    return render_template('product_detail.html')
 @app.route('/top')
-def helloworl():
+def top():
+    return render_template('top.html')
+@app.route('/rogin_customer')
+def rogin():
+    return render_template('rogin_customer.html')
+
+@app.route('/product_resistration',methods=["post"])
+def product_resistration():
     # return 'Hello World.'
 
-    return render_template('top.html')
+    return render_template('product_resistration.html')
 
 
 

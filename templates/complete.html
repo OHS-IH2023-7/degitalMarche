@@ -1,0 +1,27 @@
+<!-- ページを追加する場合、基本的に全てのブロックを記述してください -->
+{% extends 'base.html' %}
+<!-- メインコンテンツ -->
+<!-- headタグ -->
+{% block head %}
+    {{ super() }}
+
+    <!-- 追加のcssファイルを記述する場合はここから -->
+    {% block externalcss %}
+        <link rel="stylesheet" href="../static/css/complete.css">
+    {% endblock %}
+    
+    {% block title %}
+        購入完了ページ
+    {% endblock %}
+{% endblock %}
+
+<!-- メインコンテンツ -->
+{% block main %}
+    <h2>購入完了しました</h2>
+
+    <hr>
+
+    <p>出品者様に購入完了の通知をお送り致しました。<br>
+        ご購入商品の到着まで、今しばらくお待ちいただけますようよろしくお願い申し上げます。<br>
+        なお、キャンセル等ございましたら、お早めに出品者様へご連絡いただけますようよろしくお願い申し上げます。</p>
+{% endblock %}

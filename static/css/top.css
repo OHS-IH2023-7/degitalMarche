@@ -7,7 +7,6 @@
   width: 80%;
   margin: 40px auto;
 }
-
 #head h1 {
   background-color: teal;
   height: 200px;
@@ -17,16 +16,10 @@
   width: 80%;
   margin: 0 auto;
 }
-
 #category ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
-
 #category ul li {
   background-color: blue;
   border-radius: 50%;
@@ -41,39 +34,15 @@
   width: 80%;
   margin: 10px auto;
 }
-
 #new ul {
   max-width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 #new ul li {
   height: 250px;
   width: 22%;
   margin: 16px;
   list-style: none;
   background-color: red;
-}
-
-#new ul #more {
-  margin: 0 auto;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#new ul #more input {
-  margin: 0 auto;
-}
-/*# sourceMappingURL=top.css.map */
+}/*# sourceMappingURL=top.css.map */

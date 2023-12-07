@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block main %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/product_resistration.css') }}">
+    <div id="picture">
+        <ul>
+            <li>
+                <label class="upload" for="" tabindex="0">
+                </label>
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div id="input">
+        <form action="" id="form">
+            <div class="item">
+                <label class="label" for="name" name="name">商品名</label>
+                <input type="text" id="name">
+            </div>
+            <div class="item">
+                <label class="label" for="category" name="caegory">カテゴリー</label>
+                <select name="category" id="category" form="form">
+                    <option value="1">a</option>
+                    <option value="2">b</option>
+                    <option value="3">c</option>
+                    <option value="4">d</option>
+                    <option value="5">e</option>
+                    <option value="6">f</option>
+                </select>
+            </div>
+            <div class="item">
+                <label class="label" for="explanation" name="explanation">商品の説明</label><br>
+                <!-- <input type="text" id="explanation"> -->
+                <textarea name="explanation" id="explanation" cols="40" rows="10"></textarea>
+            </div>
+            <div class="item">
+                <label class="label" for="price" name="price">販売価格</label>
+                <input type="text" id="price" value="￥">
+            </div>
+            <input type="submit" value="出品" id="submit">
+        </form>
+    </div>
+    {% endblock %}
