@@ -37,7 +37,7 @@ def top():
     return render_template('top.html')
 @app.route('/rogin_customer')
 def rogin():
-    return render_template('rogin_customer.html')
+    return render_template('rogin_customer.html',methods=["post"])
 
 @app.route('/product_resistration',methods=["post"])
 def product_resistration():

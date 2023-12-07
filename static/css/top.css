@@ -7,6 +7,7 @@
   width: 80%;
   margin: 40px auto;
 }
+
 #head h1 {
   background-color: teal;
   height: 200px;
@@ -16,10 +17,16 @@
   width: 80%;
   margin: 0 auto;
 }
+
 #category ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 #category ul li {
   background-color: blue;
   border-radius: 50%;
@@ -34,15 +41,35 @@
   width: 80%;
   margin: 10px auto;
 }
+
 #new ul {
   max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
+
 #new ul li {
   height: 250px;
   width: 22%;
   margin: 16px;
   list-style: none;
   background-color: red;
-}/*# sourceMappingURL=top.css.map */
+}
+
+#new #more {
+  margin-bottom: 50px;
+}
+
+#new #more a {
+  text-decoration: none;
+  position: relative;
+  font-size: large;
+}
+
+#new #more a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=top.css.map */
