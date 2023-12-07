@@ -1,0 +1,111 @@
+{% extends 'base.html' %}        
+<!-- メインコンテンツ -->
+{% block main %}
+<!-- <link rel="stylesheet" href="../static/css/complete.css"> -->
+<title>購入完了</title>
+    <h2>購入情報入力</h2>
+
+    <div class="reft">
+        <table border="1">
+            <tr>
+                <td>お届け先</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>お名前</td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>郵便番号</td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>都道府県</td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>住所</td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>電話番号</td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>受け取り場所</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input type="radio" name="" id="">対面で受け取り</td>
+                        </tr>
+                        <tr>
+                            <tr>
+                                <td><input type="radio" name="" id="">起き配指定</td>
+                            </tr>
+                        </tr>
+                        <tr>
+                            <tr>
+                                <td><input type="radio" name="" id="">受け取り場所を指定</td>
+                            </tr>
+                            <tr>
+                                <td>受け取り場所記入欄</td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" name="" id=""></td>
+                            </tr>
+                        </tr>
+                    </table>
+            </tr>
+            <tr>
+                <td>支払い方法</td>
+                <td>
+                    <table>
+                        <tr>
+                            <td><input type="radio" name="" id="">クレジットカード</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="" id="">PayPay</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="" id="">コンビニ支払い</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="" id="">代金引換</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <!-- <tr>
+                <td>商品情報</td>
+                <td>test</td>
+            </tr> -->
+        </table>
+    </div>
+
+    <div class="right">
+        
+        <!-- 
+            画像表示
+         -->
+
+        <p>金額</p>
+        <p class="price">testtest</p>
+        <p>送料</p>
+        <p class="price">testtest</p>
+        <hr width="30%">
+        <p>合計</p>
+        <p class="proce">testtest</p>
+    </div>
+
+    <br>
+
+    <form action="" method="get" id="">
+        <a href="">確認画面へ</a>
+    </form>
+    <br>
+
+
+{% endblock %}

@@ -1,13 +1,9 @@
 #picture {
   overflow-y: scroll;
 }
-
 #picture ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 #picture ul li {
   list-style: none;
   margin: 20px 100px;
@@ -22,14 +18,11 @@
   margin: 0 auto;
   text-align: center;
 }
-
 #input .item {
   margin: 30px;
 }
-
 #input .item #explanation {
   width: 50%;
   height: 200px;
   font-size: 20px;
-}
-/*# sourceMappingURL=product_resistration.css.map */
+}/*# sourceMappingURL=product_resistration.css.map */
