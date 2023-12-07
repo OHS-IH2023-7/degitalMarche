@@ -32,12 +32,14 @@ def helloworld():
 def product_detail():
 
     return render_template('product_detail.html')
+
 @app.route('/top')
 def top():
     return render_template('top.html')
-@app.route('/rogin_customer')
+
+@app.route('/rogin_customer',methods=["post"])
 def rogin():
-    return render_template('rogin_customer.html',methods=["post"])
+    return render_template('rogin_customer.html')
 
 @app.route('/product_resistration',methods=["post"])
 def product_resistration():
