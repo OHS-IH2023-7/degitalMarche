@@ -1,1 +1,12 @@
+<<<<<<< HEAD
 /*# sourceMappingURL=style.css.map */
+=======
+.header-title {
+  font-size: clamp(16px, 4vw, 32px);
+  font-weight: 900;
+}
+.header-title a {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
+>>>>>>> fbef4d306e69e4a5949b58c91516b12bd935c790

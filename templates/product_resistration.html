@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../static/css/product_resistration.css">
-</head>
-<body>
+{% extends 'base.html' %}
+{% block main %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/product_resistration.css') }}">
     <div id="picture">
         <ul>
-            <li></li>
+            <li>
+                <label class="upload" for="" tabindex="0">
+                </label>
+            </li>
             <li></li>
             <li></li>
             <li></li>
@@ -46,8 +43,7 @@
                 <label class="label" for="price" name="price">販売価格</label>
                 <input type="text" id="price" value="￥">
             </div>
-            <input type="submit" value="出品">
+            <input type="submit" value="出品" id="submit">
         </form>
     </div>
-</body>
-</html>
+    {% endblock %}

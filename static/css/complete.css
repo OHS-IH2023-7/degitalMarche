@@ -4,30 +4,12 @@
 }
 
 header {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 h2 {
   margin: 30px;
   margin-left: 40px;
-}
-
-.main {
-  margin: 100px;
-  margin-left: 20%;
-  font-size: 17px;
-}
-
-.product {
-  display: block;
-  text-align: right;
-  margin-right: 10%;
-}
-
-.top {
-  display: block;
-  text-align: center;
-  background: #000;
-  color: white;
-  padding: 30px;
 }/*# sourceMappingURL=complete.css.map */
