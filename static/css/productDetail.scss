@@ -1,9 +1,11 @@
 .product-wrapper{
     width: 80%;
-    margin: 5em auto;
+    margin: 0 auto;
+    padding: 7em 0;
     display: flex;
     justify-content: space-between;
     position: relative;
+    z-index: 0;
     .product-image{
         width: 45%;
         .image-box{

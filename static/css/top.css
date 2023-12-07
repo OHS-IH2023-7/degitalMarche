@@ -5,8 +5,10 @@
 
 #head {
   width: 80%;
-  margin: 40px auto;
+  margin: 0 auto;
+  padding-top: 150px;
 }
+
 #head h1 {
   background-color: teal;
   height: 200px;
@@ -14,62 +16,86 @@
 
 #category {
   width: 80%;
-  margin: 0 auto;
+  margin: 5em auto;
 }
+
 #category ul {
   margin: 5em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
+
 #category ul li {
   background-color: blue;
   border-radius: 50%;
   list-style: none;
-  flex: 1;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   margin: 0 20px;
   max-width: 200px;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
 }
 
 #new {
   width: 80%;
   margin: 10px auto;
 }
+
 #new ul {
   max-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
+
 #new ul li {
   width: 30%;
   margin-left: 5%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1;
   margin: 10px;
   list-style: none;
   background-color: red;
 }
+
 #new ul li:nth-child(3n+1) {
   margin-left: 0;
 }
+
 #new ul li a {
   display: block;
   width: 100%;
   height: 100%;
 }
+
 #new ul li a img {
   width: 100%;
   height: 100%;
 }
+
 #new #more {
   margin-bottom: 50px;
 }
+
 #new #more a {
   text-decoration: none;
   position: relative;
   font-size: large;
 }
+
 #new #more a:hover {
   text-decoration: underline;
-}/*# sourceMappingURL=top.css.map */
+}
+/*# sourceMappingURL=top.css.map */
