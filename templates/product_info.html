@@ -6,82 +6,69 @@
     <h2>購入情報入力</h2>
 
     <div class="left">
-        <table border="1">
-            <tr>
-                <td>お届け先</td>
-                <td>
-                    <table>
-                        <tr>
-                            <td>お名前</td>
-                            <td><input type="text" name="" id="" value="HAL太郎"></td>
-                        </tr>
-                        <tr>
-                            <td>郵便番号</td>
-                            <td><input type="text" name="" id=""value="530-0001"></td>
-                        </tr>
-                        <tr>
-                            <td>都道府県</td>
-                            <td><input type="text" name="" id="" value="大阪府"></td>
-                        </tr>
-                        <tr>
-                            <td>住所</td>
-                            <td><textarea name="" id="">大阪府大阪市北区梅田３丁目３−１</textarea></td>
-                        </tr>
-                        <tr>
-                            <td>電話番号</td>
-                            <td><input type="text" name="" id="" value="06-6347-0001"></td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-                <td>受け取り場所</td>
-                <td>
-                    <table>
-                        <tr>
-                            <td><input type="radio" name="" id="" checked>対面で受け取り</td>
-                        </tr>
-                        <tr>
-                            <tr>
-                                <td><input type="radio" name="" id="">起き配指定</td>
-                            </tr>
-                        </tr>
-                        <tr>
-                            <tr>
-                                <td><input type="radio" name="" id="">受け取り場所を指定</td>
-                            </tr>
-                            <tr>
-                                <td>受け取り場所記入欄</td>
-                            </tr>
-                            <tr>
-                                <td><input type="text" name="" id=""></td>
-                            </tr>
-                        </tr>
-                    </table>
-            </tr>
-            <tr>
-                <td>支払い方法</td>
-                <td>
-                    <table>
-                        <tr>
-                            <td><input type="radio" name="" id="">クレジットカード</td>
-                        </tr>
-                        <tr>
-                            <td><input type="radio" name="" id="">PayPay</td>
-                        </tr>
-                        <tr>
-                            <td><input type="radio" name="" id="" checked>コンビニ支払い</td>
-                        </tr>
-                        <tr>
-                            <td><input type="radio" name="" id="">代金引換</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <!-- <tr>
-                <td>商品情報</td>
-                <td>test</td>
-            </tr> -->
+        <table border="5" id="tbl" width="90%">
+            <!-- <div class="table"> -->
+                <tr>
+                    <td rowspan="6">お届け先</td>
+                </tr>
+                <tr>
+                    <td>お名前</td>
+                    <td><input type="text" name="" id="" value="HAL太郎"></td>
+                </tr>
+                <tr>
+                    <td>郵便番号</td>
+                    <td><input type="text" name="" id=""value="530-0001"></td>
+                </tr>
+                <tr>
+                    <td>都道府県</td>
+                    <td><input type="text" name="" id="" value="大阪府"></td>
+                </tr>
+                <tr>
+                    <td>住所</td>
+                    <td><input type="text" name="" id="" value="大阪府大阪市北区梅田３丁目３−１"></td>
+                </tr>
+                <tr>
+                    <td>電話番号</td>
+                    <td><input type="text" name="" id="" value="06-6347-0001"></td>
+                </tr>
+            <!-- </div> -->
+            <!-- <div class="table"> -->
+                <tr>
+                    <td rowspan="5">受け取り場所</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="radio" name="place" id="" checked>対面で受け取り</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="radio" name="place" id="">起き配指定</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="radio" name="place" id="">受け取り場所を指定</td>
+                </tr>
+                <tr>
+                    <td colspan="">受け取り場所記入欄</td>
+                    <td colspan=""><input type="text" name="" id=""></td>
+                </tr>
+                <!-- <tr> -->
+                <!-- </tr> -->
+            <!-- </div> -->
+            <!-- <div class="table"> -->
+                <tr>
+                    <td rowspan="5">支払い方法</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="radio" name="payment" id="">クレジットカード</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="radio" name="payment" id="">PayPay</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="radio" name="payment" id="" checked>コンビニ支払い</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="radio" name="payment" id="">代金引換</td>
+                </tr>
+            <!-- </div> -->
         </table>
     </div>
 
@@ -91,13 +78,16 @@
             画像表示
          -->
 
-        <p>金額</p>
-        <p class="price">369,800円</p>
-        <p>送料・手数料</p>
-        <p class="price">300円</p>
-        <hr width="30%">
-        <p>合計</p>
-        <p class="proce">370,100円</p>
+        <div id="price">
+
+            <h3>金額</h3>
+                <p>369,800円</p>
+            <h3>送料・手数料</h3>
+                <p>300円</p>
+            <hr width="80%">
+            <h3>合計</h3>
+                <p>370,100円</p>
+        </div>
         <form action="" method="get" id="">
             <a href="/buy_check">確認画面へ</a>
         </form>
