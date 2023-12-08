@@ -4,8 +4,6 @@
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -32,11 +30,10 @@ h2 {
   margin-top: -50px;
   padding: 26px;
   font-size: 18px;
-  color: #1457ff;
+  color: rgb(20, 87, 255);
 }
 
 .product:hover {
-  -webkit-transition: 1s;
   transition: 1s;
   color: red;
 }
@@ -52,8 +49,6 @@ h2 {
 }
 
 .top:hover {
-  -webkit-transition: 1s;
   transition: 1s;
   color: blue;
-}
-/*# sourceMappingURL=complete.css.map */
+}/*# sourceMappingURL=complete.css.map */
