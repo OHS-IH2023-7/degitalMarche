@@ -4,12 +4,21 @@
 }
 
     #head{
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
-        padding-top: 150px;
+        padding-top: 78px;
         h1{
-            background-color: teal;
-            height: 200px;
+            background-color: rgb(31, 158, 158);
+            height: 630px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            letter-spacing: 10px;
+            font-size: 40px;
+
+            font-family: 'Libre Baskerville', serif;
+            font-family: 'M PLUS Rounded 1c', sans-serif;
             
         }
     }
@@ -22,7 +31,12 @@
             align-items: center;
             justify-content: space-between;
             li{
-                background-color: blue;
+                background-color: rgb(27, 27, 255);
+                display: flex;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                // vertical-align: middle;
                 border-radius: 50%;
                 list-style: none;
                 flex: 1;
@@ -52,9 +66,16 @@
                     margin-left: 0;
                 }
                 a{
-                    display: block;
+                    display: flex;
+                    text-align: center;
+                    align-items: center;
+                    justify-content: center;
+                    text-decoration: none;
+                    // display: block;
+                    letter-spacing: 10px;
                     width: 100%;
                     height: 100%;
+                    color: rgb(75, 75, 75);
                     img{
                         width: 100%;
                         height: 100%;

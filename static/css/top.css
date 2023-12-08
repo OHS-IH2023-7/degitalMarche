@@ -4,14 +4,28 @@
 }
 
 #head {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  padding-top: 150px;
+  padding-top: 78px;
 }
 
 #head h1 {
-  background-color: teal;
-  height: 200px;
+  background-color: #1f9e9e;
+  height: 630px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 10px;
+  font-size: 40px;
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 #category {
@@ -33,7 +47,17 @@
 }
 
 #category ul li {
-  background-color: blue;
+  background-color: #1b1bff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   border-radius: 50%;
   list-style: none;
   -webkit-box-flex: 1;
@@ -75,9 +99,21 @@
 }
 
 #new ul li a {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  letter-spacing: 10px;
   width: 100%;
   height: 100%;
+  color: #4b4b4b;
 }
 
 #new ul li a img {
